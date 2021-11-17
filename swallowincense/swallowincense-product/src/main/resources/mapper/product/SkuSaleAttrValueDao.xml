@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.swallowincense.product.dao.SkuSaleAttrValueDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.swallowincense.product.entity.SkuSaleAttrValueEntity" id="skuSaleAttrValueMap">
+        <result property="id" column="id"/>
+        <result property="skuId" column="sku_id"/>
+        <result property="attrId" column="attr_id"/>
+        <result property="attrName" column="attr_name"/>
+        <result property="attrValue" column="attr_value"/>
+        <result property="attrSort" column="attr_sort"/>
+    </resultMap>
+    <resultMap id="SkuItemSaleAttrVo" type="com.swallowincense.product.vo.SkuItemVo$SkuItemSaleAttrVo">
+        <result column="attrId" property="attrId"/>
+        <result column="attrName" property="attrName"/>
+        <collection property="attrValues" ofType="com.swallowincense.product.vo.SkuItemVo$AttrValueWithSkuIdVo">
+            <result column="attrValues" property="attrValue"/>
+            <result column="skuIds" property="skuIds"/>
+        </collection>
+    </resultMap>
+    <select id="getSaleAttrsBySpuId" resultMap="SkuItemSaleAttrVo">
+        select
+          ssav.`attr_id` as attrId,
+          ssav.`attr_name` as attrName,
+          ssav.`attr_value` as attrValues,
+          Group_Concat(distinct info.`sku_id`) as skuIds
+          from `pms_sku_info` info
+          left join `pms_sku_sale_attr_value` ssav on ssav.`sku_id`=info.`sku_id`
+          where info.`spu_id` = #{spuId}
+          group by ssav.`attr_id`,ssav.`attr_name`,ssav.`attr_value`
+    </select>
+    <select id="getSkuSaleAttrValues" resultType="java.lang.String">
+        SELECT CONCAT_WS(":",`attr_name`,`attr_value`)
+        from `pms_sku_sale_attr_value` where sku_id=#{skuId}
+    </select>
+
+
+</mapper>

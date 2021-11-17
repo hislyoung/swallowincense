@@ -1,0 +1,69 @@
+1、引入场景启动器
+    spring-boot-starter-amqp
+    会自动配置 RabbitAutoConfiguration->
+    CachingConnectionFactory 连接工厂
+    RabbitTemplateConfigurer Rabbit配置
+    RabbitTemplate 使用模板
+    AmqpAdmin 构建交换机队列等Rabbit的使用模板
+    RabbitMessagingTemplate 消息模板
+
+2、@EnableRabbit 开启自动配置
+    配置文件中配置spring.rabbitmq相关配置
+    @ConfigurationProperties(prefix = "spring.rabbitmq")
+    public class RabbitProperties
+3、发送消息若是对象需要实现Serializable接口，默认SerializationUtils.serialize(object)，在容器中放入MessageConverter消息转换器
+    即可转为JSON
+4、监听消息
+    @RabbitListener 监听一组队列，可标注在类与方法上
+    @RabbitListeners 可传入一组 @RabbitListener
+    @RabbitHandler 可标注在方法上，由于序列化后的对象需要反序列回来才可以使用，我们直接在方法参数中传入对应对象就可省略反序列化过程
+    由于消息的内容各不相同，@RabbitHandler支持方法的重载
+5、保证消息不丢失-可靠投递
+    publisher  confirmCallback模式-确认模式
+    publisher  returnCallback模式-失败返回模式
+    consumer   ACK机制-确认模式
+    1、配置文件
+        开启可靠投递
+        publisher-confirm-type: correlated
+        publisher-returns: true
+        只要抵达队列以异步模式优先回调
+        template:
+              mandatory: true
+    2、写Config对RabbitTemplate进行定制
+        RabbitTemplate.ConfirmCallback()
+        correlationData： 当前消息的唯一ID
+        ack： 是否成功
+        cause：失败原因
+        RabbitTemplate.ReturnsCallback()
+        ReturnedMessage：
+             private final Message message;  投递失败消息的详细信息
+             private final int replyCode;    回复状态码
+             private final String replyText; 错误原因
+             private final String exchange;  消息发送到的交换机
+             private final String routingKey;路由键是什么
+        唯一ID可在发消息的时候用 new CorrelationData()指定
+    3、consumer   ACK机制-确认模式
+        默认自动批量确认,通过以下配置改为手动
+        listener:
+              simple:
+                acknowledge-mode: manual
+        通过管道的一下方法进行确认和拒绝
+        channel.basicAck()
+        channel.basicNack()
+        channel.basicReject()
+6、延时队列（实现定时任务）
+    1、优势，解决定时任务的时效性问题
+    2、实现：结合消息的TTL存活时间+死信Exchange
+    3、死信条件: 消息被拒收并且拒绝重新回归队列直接被抛弃了
+                 消息的存活时间到了
+                 队列满了，排在前面的会丢弃
+7、保证消息的可靠性
+    1、消息丢失：（严重）
+        没有抵达服务器-做好记录（例如表中存放）
+        抵达Broker 还没抵达队列持久化，做好publisher的消息确认回调
+        自动ACK下消息消息发送，没处理问题，手动ACK
+    2、消息重复
+        将业务设计为接口幂等的
+    3、消息积压
+        多上线消费者
+        直接简单处理将所有的数据存入介质，慢慢处理

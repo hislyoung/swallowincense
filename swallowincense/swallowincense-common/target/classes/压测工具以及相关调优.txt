@@ -1,0 +1,13 @@
+jconsole 和 jvisualvm
+
+jconsole可以看作是jvisualvm的子集
+
+jvisualvm v8之后不自带
+
+调优思路：
+ 通过JMeter进行压力测试，通过Jconsole或者visualvm查看应用程序各项指标
+
+ 1、数据库相关实例建索引
+ 2、动静分离（页面的静态资源，类似与JS，图片、css等）
+ 3、优化业务逻辑（DB）
+ 4、适当使用Redis等缓存

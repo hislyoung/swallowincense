@@ -1,0 +1,79 @@
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+    gateway:
+      routes:
+#        - id: test_routes
+#          uri: https://www.baidu.com
+#          predicates:
+#            - Query=url,baidu
+#        - id: QQ_routes
+#          uri: https://www.qq.com
+#          predicates:
+#            - Query=url,qq
+        - id: swallowincense-host
+          uri: lb://swallowincense-product
+          predicates:
+            - Host=swallowincense.com,item.swallowincense.com
+        - id: swallowincense-order-host
+          uri: lb://swallowincense-order
+          predicates:
+            - Host=order.swallowincense.com
+        - id: swallowincense-seckill-host
+          uri: lb://swallowincense-seckill
+          predicates:
+            - Host=seckill.swallowincense.com
+        - id: swallowincense-car-host
+          uri: lb://swallowincense-car
+          predicates:
+            - Host=car.swallowincense.com
+        - id: swallowincense-search-host
+          uri: lb://swallowincense-search
+          predicates:
+            - Host=search.swallowincense.com
+        - id: swallowincense-auth-host
+          uri: lb://swallowincense-auth
+          predicates:
+            - Host=auth.swallowincense.com
+        - id: product_route
+          uri: lb://swallowincense-product
+          predicates:
+            - Path=/api/product/**
+          filters:
+            - RewritePath=/api/?(?<segment>.*),/$\{segment}
+        - id: member_route
+          uri: lb://swallowincense-member
+          predicates:
+            - Path=/api/member/**
+          filters:
+            - RewritePath=/api/?(?<segment>.*),/$\{segment}
+        - id: ware_route
+          uri: lb://swallowincense-ware
+          predicates:
+            - Path=/api/ware/**
+          filters:
+            - RewritePath=/api/?(?<segment>.*),/$\{segment}
+        - id: coupon_route
+          uri: lb://swallowincense-coupon
+          predicates:
+            - Path=/api/coupon/**
+          filters:
+            - RewritePath=/api/?(?<segment>.*),/$\{segment}
+        - id: admin_route
+          uri: lb://renren-fast
+          predicates:
+            - Path=/api/**
+          filters:
+            - RewritePath=/api/?(?<segment>.*),/renren-fast/$\{segment}
+
+  application:
+    name: swallowincense-gateway
+server:
+  port: 88
+#前端项目 /api 重写路由
+# http://localhost:88/api/captcha.jpg 转换为 http://localhost:8080/renren-fast/captcha.jpg
+#跨域问题：origin
+#是指浏览器对JS施加的安全限制，同源策略指协议、域名、端口都要相同，任意一个不同就会产生跨域问题
+#RequestMethod:OPITONS 发送请求之前会发送此预检请求，真请求并未发送

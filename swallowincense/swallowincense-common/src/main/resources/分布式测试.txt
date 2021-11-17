@@ -1,0 +1,2 @@
+选中服务ctrl+d 复制
+将名字修改 并在Program Arguments 上设置端口 --server.port=xxx

@@ -1,0 +1,45 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://192.168.159.128:3306/si_order?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=Asia/Shanghai
+    username: root
+    password: Yang1997
+  rabbitmq:
+    host: 192.168.159.128
+    port: 5672
+    publisher-confirm-type: correlated
+    publisher-returns: true
+    template:
+      mandatory: true
+    listener:
+      simple:
+        acknowledge-mode: manual
+    virtual-host: /
+  thymeleaf:
+    cache: false
+  application:
+    name: swallowincense-order
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+  redis:
+    password: liuyang
+    host: 192.168.159.128
+    port: 6379
+  session:
+    store-type: redis
+mybatis-plus:
+  mapper-locations: classpath:/mapper/**/*.xml
+  global-config:
+    db-config:
+      id-type: auto
+server:
+  port: 9000
+
+order:
+  thread:
+    pool:
+      coreSize: 20
+      maxSize: 200
+      keepAliveTime: 10

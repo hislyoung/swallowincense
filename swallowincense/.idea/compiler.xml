@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="renren-fast" />
+        <module name="renren-generator" />
+        <module name="swallowincense-auth" />
+        <module name="swallowincense-car" />
+        <module name="swallowincense-common" />
+        <module name="swallowincense-coupon" />
+        <module name="swallowincense-gateway" />
+        <module name="swallowincense-member" />
+        <module name="swallowincense-order" />
+        <module name="swallowincense-product" />
+        <module name="swallowincense-search" />
+        <module name="swallowincense-seckill" />
+        <module name="swallowincense-third-party" />
+        <module name="swallowincense-ware" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="swallowinvense-common" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

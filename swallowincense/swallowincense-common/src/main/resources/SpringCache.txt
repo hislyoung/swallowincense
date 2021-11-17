@@ -1,0 +1,47 @@
+cacheManager：缓存管理器，管理各种各样的缓存
+cache：操作缓存的
+
+整合SpringCache简化缓存开发
+   1、以入cache的场景启动器
+      以及缓存的场景启动器
+   2、写配置
+      （1）自动配置了那些
+            spring.cache 开头的配置
+            CacheConfigurationImportSelector在选择器中使用
+            RedisCacheConfiguration自动配好了cacheManager
+            createConfiguration默认配置
+      （2）spring.cache.type: redis //配置redis作为缓存
+   3、缓存使用
+        @EnableCaching 开启缓存注解
+        @Cacheable 触发将数据保存到缓存的操作
+        @CacheEvict 出发将缓存删除的操作，失效模式
+        @CachePut 不影响方法执行更新缓存，双写模式
+        @Caching 组合以上多个操作
+        @CacheConfig 在类级别上共享缓存配置
+   4、默认行为
+        缓存中有则方法不在调用
+        key默认自动生成，格式为缓存的名字::SimpleKey []
+        缓存的value值，默认使用jdk的序列化机制，将结果保存到缓存
+        JdkSerializationRedisSerializer
+        没有过期时间
+   5、自定义操作
+        指定缓存的key SpEl表达式 #root.xxx或者"'字符串'"
+        指定缓存的存活时间 redis.time-to-live: 36000 单位毫秒
+        指定缓存值的序列化机制 需要手动写配置类
+            determineConfiguration决定使用规则，有则使用配置的，没有则使用默认的
+        想改缓存配置，只需要配置RedisCacheConfiguration
+   6、问题：自定义配置文件后，配置文件的配置不会生效
+      原因：原来和配置文件绑定的配置类绑定未生效
+        @ConfigurationProperties(prefix = "spring.cache")
+      解决：使这个绑定生效
+   7、不足
+        1）读模式：
+            缓存穿透，查询一个NULL数据，解决，缓存NULL数据
+            缓存击穿，大量并发同时查询一个正好过期的数据，加锁解决，默认不加锁，可以配置sync=true
+            缓存雪崩，大量Key同时过期，加随机时间解决
+        2）写模式：
+            读写加锁
+            引入Canal,订阅数据库更新
+            读多写多，直接查数据库
+        常规数据读多写少的，即时性，一致性不高的可以使用spring cache,
+        特殊数据 特殊设计

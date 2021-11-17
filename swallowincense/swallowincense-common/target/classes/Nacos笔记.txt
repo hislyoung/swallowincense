@@ -1,0 +1,44 @@
+/* Nacos作为注册发现中心
+ * 注册不用@EnableDiscoveryClient注解也可以
+ * 只需要配置服务地址和服务名称(在yml中)
+ * 引入nacos-discovery
+ * 1、想要远程调用别的服务
+ * 1）、引入Open-Feign依赖
+        引入Loadbalancer依赖
+ * 2）、编写一个统一的接口，告诉spring-cloud这个接口需要远程调用
+ *      1、声明接口的每一个方法都是调用的那个远程服务的那个请求
+ *      在调用处编写接口
+ *      @FeignClient("swallowincense-coupon")//调用注册中心相应服务名
+ *      @RequestMapping("/coupon/coupon/member/list")//在对应的服务中有相应的完整方法
+ *          public R memberCoupons();
+ *      2、开启远程调用功能，配置扫描的包
+ *      @EnableFeignClients(basePackages = "com.swallowincense.member.feign")
+ *
+ * Nacos作为配置中心
+ * 1、引入bootstrap依赖
+ *    引入nacos-config
+ * 新建bootstrap.properties并配置地址及名称
+ * 在Nacos服务器上添加一个当前应用名.properties的数据集
+ * 在controller层加入实时刷新配置注解
+ * @RefreshScope 优先使用配置中心的值
+ * 2、详细概念
+ * 1）、命名空间：配置隔离
+ *      默认：public（保留空间）
+ *      用途，例如区分开发生产以及测试环境配置或者以微服务区分配置
+ *      在bootstrap.properties配置使用那个命名空间
+ *      spring.cloud.nacos.config.namespace=dev//值为空间ID
+ * 2）、配置集：所有配置的集合（相关或不相关的）
+ * 3）、配置集ID：类似于配置文件名。在Nacos中是新建的Data Id项
+ * 4）、配置分组：默认所有配置集均属于DEFAULT_GROUP
+ *      可于新建时在Group处配置，例如区分节日配置等
+ *      spring.cloud.nacos.config.group=dev//值为组名
+ * 3）、使用
+ *      先使用微服务名做命名空间，在使用分组做开发、测试以及生产的配置区分
+ * 3、从配置中心中获得多个配置集
+ * 1）、微服务任何配置信息，任何配置文件都可以放在配置中心中
+ * 2）、只需要在bootstrap.properties配置中声明要加载那些配置
+ * #读取多个配置文件
+ * #spring.cloud.nacos.config.extension-configs[0].data-id=swallowincense-coupon.yml
+ * #spring.cloud.nacos.config.extension-configs[0].group=yml
+ * #spring.cloud.nacos.config.extension-configs[0].refresh=true
+ */

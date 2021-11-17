@@ -1,0 +1,22 @@
+/* 注意：若远程调用成功返回正常任然报错503，需在@FeignClient("swallowincense-coupon")加上name
+ * 即@FeignClient(name = "swallowincense-coupon")
+ * 在Feign中不支持多个@RequestBody,但是允许多个@RequestParam
+ * 1、导入OpenFeign依赖
+ * 2、例如会员调用优惠系统的方法，需要优惠系统先拥有一个被调用方法的实例（controller层）
+ * 3、在调用者处创建一个feign包，写一些Service接口，对标要调用的服务的实例
+ * 3.1、在该接口上使用@FeignClient("Nacos注册中心服务名")，并将其@Component到容器中
+ * 3.2、构建如下接口需要请求的全路径以及对应方法的名称等信息
+ *       @RequestMapping("coupon/coupon/member/list")
+ *       public R memberCoupons();
+ * 4、在调用者的启动类上开启远程调用功能，该启动类所在包为父包，远程调用在子包，可以不显示声明
+ * 4.1、使用@EnableFeignClients(basePackages = "扫描的包")
+ * 5、Feign通过发送Http请求进行远程调用
+ * 6、服务间调用传输TO对象
+ * 7、如果对方服务的实体对象PO与我方传递的TO属性名一致，方法的参数类型可不同
+ * 7.1、@FeignClient("swallowincense-coupon")找到swallowincense-coupon服务
+ * 7.2、@PostMapping("/coupon/spubounds/save")发送请求到/coupon/spubounds/save
+ * 7.3、(@RequestBody SpuBoundTo spuBoundTo)将SpuBoundTo解析为Json发送到请求体中
+ * 7.4、@PostMapping("/save")对方接收请求
+ * 7.5、(@RequestBody SpuBoundsEntity spuBounds)解析请求体的Json为SpuBoundsEntity
+ * https://blog.csdn.net/sinat_29899265/article/details/86577997 源码解析
+ */

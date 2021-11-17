@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/renren-fast" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/renren-generator" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/swallowincense-auth" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/swallowincense-car" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/swallowincense-coupon" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/swallowincense-gateway" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/swallowincense-member" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/swallowincense-order" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/swallowincense-product" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/swallowincense-search" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/swallowincense-seckill" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/swallowincense-third-party" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/swallowincense-ware" charset="UTF-8" />
+  </component>
+</project>

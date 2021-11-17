@@ -1,0 +1,16 @@
+/*
+ * 1、基本使用，在model需要校验的字段是加入@注解，并在请求的Controller的方法参数中加入@Valid注解开启校验
+ * 2、在Controller层校验对象后面直接跟BindingResult，所有的校验异常都存在getFieldErrors()，遍历获得每一个异常
+ *    存放到Map返回，每一个实体的校验均需写异常处理，费时费力
+ * 3、统一异常处理:
+ * 1）、在异常处理的Controller上配置扫描的包@ControllerAdvice(basePackages = "扫描的包")
+ * 2）、在方法上调用@ExceptionHandler(value = Exception.class/Throwable.class)
+ * 3）、写Enum类保存编码以及信息，避免多人多言，繁杂冗余
+ * 4、分组校验
+ *      在校验注解上使用groups分组（groups = {AddGroup.class}），并将@Valid替换为@Validated({AddGroup.class})
+ *      可针不同的方法使用不同的校验规则，如果添加了分组，则没有分组的验证不校验
+ *      将用来分组校验的空接口AddGroup.class extends Default即可默认校验
+ * 5、注意
+ * 1）、@Pattern(regexp = "^[a-zA-Z]$",message = "检索首字母为1个字母" ,groups = {AddGroup.class})
+ *      使用正则表达式时，Java不加//，直接写成^[a-zA-Z]$
+ */

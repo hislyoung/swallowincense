@@ -1,0 +1,23 @@
+server:
+  port: 30000
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+  application:
+    name: swallowincense-car
+  thymeleaf:
+    cache: false
+  redis:
+    port: 6379
+    host: 192.168.159.128
+    password: liuyang
+  session:
+    store-type: redis
+cart:
+  thread:
+    pool:
+      coreSize: 20
+      maxSize: 200
+      keepAliveTime: 10

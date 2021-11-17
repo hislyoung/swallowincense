@@ -1,0 +1,28 @@
+1、使用Sentinel来进行资源保护
+    定义资源、定义规则、校验规则是否生效
+2、Sentinel 支持以下几种规则：流量控制规则、熔断降级规则、系统保护规则、来源访问控制规则 和 热点参数规则。
+3、引入依赖
+    场景启动器  Sentinel 核心库
+    下载控制台  Dashboard
+    配置Sentinel 服务端口和控制台端口
+    spring:
+      cloud:
+        sentinel:
+          transport:
+            port: 8719
+            dashboard: localhost:8080
+    打开控制台进行配置-默认配置在内存，没有持久化
+4、导入spring-boot-starter-actuator模块
+        配置management.endpoints.web.exposure.include=*对请求状态等进行可视化显示
+5、自定义配置Sentinel的流控返回
+        服务与gateway自定义返回不一样
+        服务实现BlockExceptionHandler的handle方法
+        gateway使用spring5新特性响应式编程实现
+        BlockRequestHandler的handleRequest方法
+6、网关限流
+    在网关引入整合包
+    <dependency>
+        <groupId>com.alibaba.cloud</groupId>
+        <artifactId>spring-cloud-alibaba-sentinel-gateway</artifactId>
+        <version>2.2.5.RELEASE</version>
+    </dependency>

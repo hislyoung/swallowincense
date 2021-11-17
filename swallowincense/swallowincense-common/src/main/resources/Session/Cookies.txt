@@ -1,0 +1,50 @@
+session/cookies区别
+session 存储于服务器，cookies 存储于客户端
+cookies 不安全，可以被篡改
+session 会在客户端存储一个cookies key jsessionid 的k-v,需要用此ID进行后台验证
+session 可以存放在很多介质中
+如果客户端禁用cookies，在请求中带上jsessionid 一起发送到后端
+
+分布式、集群下session共享问题
+解决方案：session复制，将session保存到所有服务器中，缺点每一个服务器保存的将会是全量信息
+         Cookies存储，将所有的验证信息放于cookies中，不安全
+         hash一致性，将session信息通过hash路由到指定的服务器存储，水平扩展hash会重新计算，服务器闪断会使session失效
+         将session存储到db\redis等介质中
+
+子域共享 ：Cookie cookie = new Cookie("jsessionid", "xx");
+             //设置作用范围，最大域名包含子域名的，默认为当前域名
+             cookie.setDomain("localhost");
+             servletResponse.addCookie(cookie);
+
+spring-session使用
+    引入依赖
+    配置session保存介质
+    session:
+        store-type: redis
+    开启spring-session功能
+
+解决子域session共享问题并使用JSON方式-需自定义cookies(session是放到cookies中的)
+    CookieSerializer 修改cookies
+    RedisSerializer<Object> 修改redis序列化机制
+    setDomainName时不要带点
+
+spring-session原理：
+    EnableRedisHttpSession自动导入RedisHttpSessionConfiguration
+    给容器中添加RedisIndexedSessionRepository 操作类
+    SessionRepositoryFilter Session过滤器=>Filter
+
+    protected void doFilterInternal(HttpServletRequest request, HttpServletResponse response, FilterChain filterChain) throws ServletException, IOException {
+            request.setAttribute(SESSION_REPOSITORY_ATTR, this.sessionRepository);
+            //使用装饰者模式对原生的 HttpServletRequest HttpServletResponse进行一层包装
+            SessionRepositoryFilter<S>.SessionRepositoryRequestWrapper wrappedRequest =
+            new SessionRepositoryFilter.SessionRepositoryRequestWrapper(request, response);
+            SessionRepositoryFilter.SessionRepositoryResponseWrapper wrappedResponse =
+            new SessionRepositoryFilter.SessionRepositoryResponseWrapper(wrappedRequest, response);
+
+            try {
+                filterChain.doFilter(wrappedRequest, wrappedResponse);
+            } finally {
+                wrappedRequest.commitSession();
+            }
+
+        }

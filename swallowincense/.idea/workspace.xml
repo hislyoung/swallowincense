@@ -1,0 +1,2068 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/swallowincense-ware/src/main/java/com/swallowincense/ware/service/impl/WareInfoServiceImpl.java" line="53" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0878debe-852c-4b4f-b736-fbee099a4469" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/swallowincense-product/target/" />
+    <ignored path="$PROJECT_DIR$/swallowincense-order/target/" />
+    <ignored path="$PROJECT_DIR$/swallowincense-ware/target/" />
+    <ignored path="$PROJECT_DIR$/swallowincense-coupon/target/" />
+    <ignored path="$PROJECT_DIR$/swallowincense-member/target/" />
+    <ignored path="$PROJECT_DIR$/renren-fast/target/" />
+    <ignored path="$PROJECT_DIR$/renren-generator/target/" />
+    <ignored path="$PROJECT_DIR$/swallowinvense-common/target/" />
+    <ignored path="$PROJECT_DIR$/swallowincense-common/target/" />
+    <ignored path="$PROJECT_DIR$/swallowincense-gateway/target/" />
+    <ignored path="$PROJECT_DIR$/swallowincense-third-party/target/" />
+    <ignored path="$PROJECT_DIR$/swallowincense-search/target/" />
+    <ignored path="$PROJECT_DIR$/swallowincense-auth/target/" />
+    <ignored path="$PROJECT_DIR$/swallowincense-car/target/" />
+    <ignored path="$PROJECT_DIR$/swallowincense-seckill/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1180103033">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="97" />
+          <entry key="project.open.time.110" value="1" />
+          <entry key="project.open.time.118" value="1" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.129" value="1" />
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.131" value="1" />
+          <entry key="project.open.time.14" value="2" />
+          <entry key="project.open.time.151" value="1" />
+          <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.176" value="1" />
+          <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.20" value="1" />
+          <entry key="project.open.time.22" value="3" />
+          <entry key="project.open.time.25" value="1" />
+          <entry key="project.open.time.28" value="1" />
+          <entry key="project.open.time.44" value="5" />
+          <entry key="project.open.time.47" value="2" />
+          <entry key="project.open.time.48" value="1" />
+          <entry key="project.open.time.49" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.50" value="1" />
+          <entry key="project.open.time.51" value="4" />
+          <entry key="project.open.time.52" value="2" />
+          <entry key="project.open.time.53" value="7" />
+          <entry key="project.open.time.54" value="4" />
+          <entry key="project.open.time.55" value="6" />
+          <entry key="project.open.time.56" value="1" />
+          <entry key="project.open.time.57" value="5" />
+          <entry key="project.open.time.58" value="1" />
+          <entry key="project.open.time.59" value="6" />
+          <entry key="project.open.time.60" value="3" />
+          <entry key="project.open.time.61" value="7" />
+          <entry key="project.open.time.62" value="2" />
+          <entry key="project.open.time.63" value="3" />
+          <entry key="project.open.time.64" value="3" />
+          <entry key="project.open.time.65" value="3" />
+          <entry key="project.open.time.66" value="2" />
+          <entry key="project.open.time.67" value="1" />
+          <entry key="project.open.time.68" value="2" />
+          <entry key="project.open.time.71" value="1" />
+          <entry key="project.open.time.75" value="1" />
+          <entry key="project.open.time.83" value="1" />
+          <entry key="project.open.time.84" value="1" />
+          <entry key="project.open.time.89" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.open.time.93" value="1" />
+          <entry key="project.open.time.99" value="2" />
+          <entry key="project.opened" value="101" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="1-SNAPSHOT" value="1" />
+          <entry key="MF" value="1" />
+          <entry key="Transactional" value="1" />
+          <entry key="class" value="110" />
+          <entry key="css" value="1" />
+          <entry key="factories" value="2" />
+          <entry key="gitignore" value="1" />
+          <entry key="html" value="70" />
+          <entry key="java" value="1520" />
+          <entry key="js" value="16" />
+          <entry key="json" value="2" />
+          <entry key="png" value="3" />
+          <entry key="pom" value="19" />
+          <entry key="properties" value="38" />
+          <entry key="sql" value="1" />
+          <entry key="txt" value="94" />
+          <entry key="vm" value="1" />
+          <entry key="xml" value="121" />
+          <entry key="xsd" value="1" />
+          <entry key="yml" value="109" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="110" />
+          <entry key="CSS" value="1" />
+          <entry key="HTML" value="70" />
+          <entry key="Image" value="3" />
+          <entry key="JAVA" value="1520" />
+          <entry key="JSON" value="2" />
+          <entry key="JavaScript" value="16" />
+          <entry key="Manifest" value="1" />
+          <entry key="PLAIN_TEXT" value="95" />
+          <entry key="Properties" value="38" />
+          <entry key="SQL" value="1" />
+          <entry key="UML" value="2" />
+          <entry key="VTL" value="1" />
+          <entry key="XML" value="141" />
+          <entry key="YAML" value="109" />
+          <entry key="spring.factories" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="73" />
+          <entry key="html" value="7077" />
+          <entry key="java" value="55850" />
+          <entry key="properties" value="584" />
+          <entry key="txt" value="10480" />
+          <entry key="vm" value="12" />
+          <entry key="xml" value="2916" />
+          <entry key="yml" value="2694" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="7076" />
+          <entry key="JAVA" value="55850" />
+          <entry key="PLAIN_TEXT" value="10553" />
+          <entry key="Properties" value="584" />
+          <entry key="SQL" value="28" />
+          <entry key="ThymeleafExpressions" value="1" />
+          <entry key="VTL" value="12" />
+          <entry key="XML" value="2888" />
+          <entry key="YAML" value="2694" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/swallowincense-gateway/src/main/java/com/swallowincense/gateway/config/SentinelGatewayConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/swallowincense-gateway/src/main/java/com/swallowincense/gateway/config/StoreCorsConfiguration.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="483">
+              <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/swallowincense-order/src/main/java/com/swallowincense/order/controller/OrderController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="736">
+              <caret line="44" column="60" selection-start-line="44" selection-start-column="60" selection-end-line="44" selection-end-column="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/swallowincense-order/src/main/java/com/swallowincense/order/SwallowincenseOrderApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.5.3/spring-boot-autoconfigure-2.5.3-sources.jar!/org/springframework/boot/autoconfigure/SpringBootApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="529">
+              <caret line="55" column="15" selection-start-line="55" selection-start-column="15" selection-end-line="55" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.5.3/spring-boot-autoconfigure-2.5.3-sources.jar!/org/springframework/boot/autoconfigure/EnableAutoConfiguration.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1219">
+              <caret line="82" column="36" selection-start-line="82" selection-start-column="36" selection-end-line="82" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.5.3/spring-boot-autoconfigure-2.5.3-sources.jar!/org/springframework/boot/autoconfigure/AutoConfigurationImportSelector.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="96" column="30" selection-start-line="96" selection-start-column="30" selection-end-line="96" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.base/java/util/Collections.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="94139">
+              <caret line="4434" column="36" selection-start-line="4434" selection-start-column="36" selection-end-line="4434" selection-end-column="36" />
+              <folding>
+                <element signature="e#175865#175866#0" expanded="true" />
+                <element signature="e#175908#175909#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.5.3/spring-boot-autoconfigure-2.5.3-sources.jar!/org/springframework/boot/autoconfigure/AutoConfigurationPackage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="40" column="38" selection-start-line="40" selection-start-column="38" selection-end-line="40" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.5.3/spring-boot-autoconfigure-2.5.3-sources.jar!/org/springframework/boot/autoconfigure/AutoConfigurationPackages.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1633">
+              <caret line="106" column="17" selection-start-line="106" selection-start-column="17" selection-end-line="106" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="FxmlFile" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>70</find>
+      <find>填写</find>
+      <find>有货</find>
+      <find>expectedModCount</find>
+      <find>next</find>
+      <find>remove</find>
+      <find>volatile</find>
+      <find>modCount</find>
+      <find>binarySearch</find>
+      <find>hasNext</find>
+      <find>wmsFeignService</find>
+      <find>close</find>
+      <find>closeOrder</find>
+      <find>unlockStock</find>
+      <find>ScheduledTaskRegistrar</find>
+      <find>redi</find>
+      <find>seckill</find>
+      <find>image</find>
+      <find>currentSeckillSkus</find>
+      <find>预约</find>
+      <find>请登录</find>
+      <find>href=&quot;</find>
+      <find>&lt;h1&gt;恭喜您，秒杀商品成功，订单号：[[${orderSn}]]&lt;/h1&gt;</find>
+      <find>sku/seckill/5</find>
+      <find>sku/seckill</find>
+      <find>立即</find>
+      <find>actuator</find>
+      <find>sleuth</find>
+      <find>SessionRepositoryFilter</find>
+      <find>rabbitTemplate</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>javax.validation.constraints.NotBlank.message</replace>
+      <replace />
+      <replace>&lt;img src=&quot;/static/</replace>
+      <replace>src=&quot;/static/search/</replace>
+      <replace>href=&quot;/static/login/</replace>
+      <replace>href=&quot;/static/reg/</replace>
+      <replace>src=&quot;/static/car</replace>
+      <replace>href=&quot;/static/car</replace>
+      <replace>href=&quot;/static/item</replace>
+      <replace>src=&quot;/static/item</replace>
+      <replace>src=&quot;/static/item/</replace>
+      <replace>swallowincense.com</replace>
+      <replace>pay</replace>
+      <replace>href=&quot;/static/order/detail/</replace>
+      <replace>href=&quot;/static/order/confirm/</replace>
+      <replace>src=&quot;/static/order/confirm/</replace>
+      <replace>href=&quot;/static/order/list/</replace>
+      <replace>src=&quot;/static/order/detail/</replace>
+      <replace>href=&quot;http://car.swallowincense.com</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>G:\workspace\javaee\swallowincense\swallowincense-member\src\main\java\com\swallowincense\member\feign</dir>
+      <dir>G:\workspace\javaee\swallowincense\swallowincense-product\src\main\java\com\swallowincense\product\vo</dir>
+      <dir>G:\workspace\javaee\swallowincense\swallowincense-ware\src\main\java\com\swallowincense\ware\dao</dir>
+    </dirStrings>
+  </component>
+  <component name="HierarchyBrowserManager">
+    <option name="SCOPE" value="All" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/swallowincense-seckill/src/main/java/com/swallowincense/seckill/vo/SeckillSessionWithSkus.java" />
+        <option value="$PROJECT_DIR$/swallowincense-seckill/src/main/java/com/swallowincense/seckill/vo/SkuInfoVo.java" />
+        <option value="$PROJECT_DIR$/swallowincense-seckill/src/main/java/com/swallowincense/seckill/feign/ProductFeignService.java" />
+        <option value="$PROJECT_DIR$/swallowincense-seckill/src/main/java/com/swallowincense/seckill/to/SeckillSkuRedisTo.java" />
+        <option value="$PROJECT_DIR$/swallowincense-seckill/src/main/java/com/swallowincense/seckill/config/MyRedissonConfig.java" />
+        <option value="$PROJECT_DIR$/swallowincense-seckill/src/main/java/com/swallowincense/seckill/scheduled/StockScheduled.java" />
+        <option value="$PROJECT_DIR$/swallowincense-gateway/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/swallowincense-seckill/src/main/java/com/swallowincense/seckill/config/MyRedisConfig.java" />
+        <option value="$PROJECT_DIR$/swallowincense-product/src/main/java/com/swallowincense/product/feign/SeckillFeignService.java" />
+        <option value="$PROJECT_DIR$/swallowincense-product/src/main/java/com/swallowincense/product/vo/SeckillInfoVo.java" />
+        <option value="$PROJECT_DIR$/swallowincense-product/src/main/java/com/swallowincense/product/vo/SeckillSkuVo.java" />
+        <option value="$PROJECT_DIR$/swallowincense-product/src/main/java/com/swallowincense/product/vo/SkuItemVo.java" />
+        <option value="$PROJECT_DIR$/swallowincense-product/src/main/java/com/swallowincense/product/service/impl/SkuInfoServiceImpl.java" />
+        <option value="$PROJECT_DIR$/swallowincense-common/src/main/resources/高并发关注的问题.txt" />
+        <option value="$PROJECT_DIR$/swallowincense-search/src/main/resources/templates/list.html" />
+        <option value="$PROJECT_DIR$/swallowincense-product/src/main/resources/templates/index.html" />
+        <option value="$PROJECT_DIR$/swallowincense-seckill/src/main/java/com/swallowincense/seckill/SwallowincenseSeckillApplication.java" />
+        <option value="$PROJECT_DIR$/swallowincense-seckill/src/main/java/com/swallowincense/seckill/config/MySessionConfig.java" />
+        <option value="$PROJECT_DIR$/swallowincense-seckill/src/main/java/com/swallowincense/seckill/interceptor/LoginUserInterceptor.java" />
+        <option value="$PROJECT_DIR$/swallowincense-seckill/src/main/java/com/swallowincense/seckill/config/MyWebConfig.java" />
+        <option value="$PROJECT_DIR$/swallowincense-seckill/src/main/java/com/swallowincense/seckill/service/SeckillService.java" />
+        <option value="$PROJECT_DIR$/swallowincense-common/src/main/java/com/swallowincense/common/to/mq/SeckillOrderTo.java" />
+        <option value="$PROJECT_DIR$/swallowincense-order/src/main/java/com/swallowincense/order/listener/OrderCloseListener.java" />
+        <option value="$PROJECT_DIR$/swallowincense-order/src/main/java/com/swallowincense/order/service/OrderService.java" />
+        <option value="$PROJECT_DIR$/swallowincense-order/src/main/java/com/swallowincense/order/service/impl/OrderServiceImpl.java" />
+        <option value="$PROJECT_DIR$/swallowincense-seckill/src/main/java/com/swallowincense/seckill/config/MyRabbitMqConfig.java" />
+        <option value="$PROJECT_DIR$/swallowincense-order/src/main/java/com/swallowincense/order/listener/OrderSeckillListener.java" />
+        <option value="$PROJECT_DIR$/swallowincense-product/src/main/resources/templates/item.html" />
+        <option value="$PROJECT_DIR$/swallowincense-seckill/pom.xml" />
+        <option value="$PROJECT_DIR$/swallowincense-car/src/main/resources/templates/success.html" />
+        <option value="$PROJECT_DIR$/swallowincense-car/src/main/resources/templates/cartList.html" />
+        <option value="$PROJECT_DIR$/swallowincense-seckill/src/main/java/com/swallowincense/seckill/controller/SeckillController.java" />
+        <option value="$PROJECT_DIR$/swallowincense-seckill/src/main/resources/templates/success.html" />
+        <option value="$PROJECT_DIR$/swallowincense-seckill/src/main/java/com/swallowincense/seckill/service/impl/SeckillServiceImpl.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/swallowincense-seckill/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/swallowincense-seckill/src/main/java/com/swallowincense/seckill/config/SeckillSentinelConfig.java" />
+        <option value="$PROJECT_DIR$/swallowincense-common/src/main/java/com/swallowincense/common/exception/BizCodeEnum.java" />
+        <option value="$PROJECT_DIR$/swallowincense-product/src/main/java/com/swallowincense/product/config/MyThreadConfig.java" />
+        <option value="$PROJECT_DIR$/swallowincense-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/swallowincense-common/src/main/resources/Sentinel.txt" />
+        <option value="$PROJECT_DIR$/swallowincense-gateway/src/main/java/com/swallowincense/gateway/config/SentinelGatewayConfig.java" />
+        <option value="$PROJECT_DIR$/swallowincense-common/src/main/resources/Sleuth+Zipkin链路追踪.txt" />
+        <option value="$PROJECT_DIR$/swallowincense-common/pom.xml" />
+        <option value="$PROJECT_DIR$/swallowincense-product/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/swallowincense-order/src/main/java/com/swallowincense/order/config/MyWebConfig.java" />
+        <option value="$PROJECT_DIR$/swallowincense-order/src/test/java/com/swallowincense/order/SwallowincenseOrderApplicationTests.java" />
+        <option value="$PROJECT_DIR$/swallowincense-order/src/main/java/com/swallowincense/order/config/MyRabbitMqConfig.java" />
+        <option value="$PROJECT_DIR$/swallowincense-order/src/main/java/com/swallowincense/order/config/MyFeignConfig.java" />
+        <option value="$PROJECT_DIR$/swallowincense-order/src/main/java/com/swallowincense/order/interceptor/LoginUserInterceptor.java" />
+        <option value="$PROJECT_DIR$/swallowincense-order/src/main/java/com/swallowincense/order/controller/OrderController.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\apache-maven-3.6.1-bin\package_jre\maven_repository" />
+        <option name="mavenHome" value="D:/apache-maven-3.6.1-bin/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.6.1-bin\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="renren-fast" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="renren-fast" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="NamedScopeManager">
+    <scope name="jar" pattern="lib:*..*" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="110" />
+    <option name="y" value="95" />
+    <option name="width" value="1750" />
+    <option name="height" value="970" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <flattenPackages ProjectPane="false" />
+      <hideEmptyPackages ProjectPane="false" />
+      <sortByType ProjectPane="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="swallowincense" type="b2602c69:ProjectViewProjectNode" />
+              <item name="swallowincense" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="swallowincense" type="b2602c69:ProjectViewProjectNode" />
+              <item name="swallowincense" type="462c0819:PsiDirectoryNode" />
+              <item name="swallowincense-common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="swallowincense" type="b2602c69:ProjectViewProjectNode" />
+              <item name="swallowincense" type="462c0819:PsiDirectoryNode" />
+              <item name="swallowincense-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="swallowincense" type="b2602c69:ProjectViewProjectNode" />
+              <item name="swallowincense" type="462c0819:PsiDirectoryNode" />
+              <item name="swallowincense-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="swallowincense" type="b2602c69:ProjectViewProjectNode" />
+              <item name="swallowincense" type="462c0819:PsiDirectoryNode" />
+              <item name="swallowincense-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="swallowincense" type="b2602c69:ProjectViewProjectNode" />
+              <item name="swallowincense" type="462c0819:PsiDirectoryNode" />
+              <item name="swallowincense-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="Session" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="swallowincense" type="b2602c69:ProjectViewProjectNode" />
+              <item name="swallowincense" type="462c0819:PsiDirectoryNode" />
+              <item name="swallowincense-common" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="swallowincense" type="b2602c69:ProjectViewProjectNode" />
+              <item name="swallowincense" type="462c0819:PsiDirectoryNode" />
+              <item name="swallowincense-coupon" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="swallowincense" type="b2602c69:ProjectViewProjectNode" />
+              <item name="swallowincense" type="462c0819:PsiDirectoryNode" />
+              <item name="swallowincense-coupon" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="swallowincense" type="b2602c69:ProjectViewProjectNode" />
+              <item name="swallowincense" type="462c0819:PsiDirectoryNode" />
+              <item name="swallowincense-coupon" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="swallowincense" type="b2602c69:ProjectViewProjectNode" />
+              <item name="swallowincense" type="462c0819:PsiDirectoryNode" />
+              <item name="swallowincense-coupon" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="swallowincense" type="b2602c69:ProjectViewProjectNode" />
+              <item name="swallowincense" type="462c0819:PsiDirectoryNode" />
+              <item name="swallowincense-coupon" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="swallowincense" type="b2602c69:ProjectViewProjectNode" />
+              <item name="swallowincense" type="462c0819:PsiDirectoryNode" />
+              <item name="swallowincense-coupon" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="swallowincense" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="swallowincense" type="b2602c69:ProjectViewProjectNode" />
+              <item name="swallowincense" type="462c0819:PsiDirectoryNode" />
+              <item name="swallowincense-gateway" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="swallowincense" type="b2602c69:ProjectViewProjectNode" />
+              <item name="swallowincense" type="462c0819:PsiDirectoryNode" />
+              <item name="swallowincense-gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="swallowincense" type="b2602c69:ProjectViewProjectNode" />
+              <item name="swallowincense" type="462c0819:PsiDirectoryNode" />
+              <item name="swallowincense-gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="swallowincense" type="b2602c69:ProjectViewProjectNode" />
+              <item name="swallowincense" type="462c0819:PsiDirectoryNode" />
+              <item name="swallowincense-gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="swallowincense" type="b2602c69:ProjectViewProjectNode" />
+              <item name="swallowincense" type="462c0819:PsiDirectoryNode" />
+              <item name="swallowincense-gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="swallowincense" type="b2602c69:ProjectViewProjectNode" />
+              <item name="swallowincense" type="462c0819:PsiDirectoryNode" />
+              <item name="swallowincense-gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="swallowincense" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="swallowincense" type="b2602c69:ProjectViewProjectNode" />
+              <item name="swallowincense" type="462c0819:PsiDirectoryNode" />
+              <item name="swallowincense-gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="swallowincense" type="462c0819:PsiDirectoryNode" />
+              <item name="gateway" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="swallowincense" type="b2602c69:ProjectViewProjectNode" />
+              <item name="swallowincense" type="462c0819:PsiDirectoryNode" />
+              <item name="swallowincense-gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="swallowincense" type="462c0819:PsiDirectoryNode" />
+              <item name="gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="swallowincense" type="b2602c69:ProjectViewProjectNode" />
+              <item name="swallowincense" type="462c0819:PsiDirectoryNode" />
+              <item name="swallowincense-order" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="swallowincense" type="b2602c69:ProjectViewProjectNode" />
+              <item name="swallowincense" type="462c0819:PsiDirectoryNode" />
+              <item name="swallowincense-order" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="swallowincense" type="b2602c69:ProjectViewProjectNode" />
+              <item name="swallowincense" type="462c0819:PsiDirectoryNode" />
+              <item name="swallowincense-order" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="swallowincense" type="b2602c69:ProjectViewProjectNode" />
+              <item name="swallowincense" type="462c0819:PsiDirectoryNode" />
+              <item name="swallowincense-order" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="swallowincense" type="b2602c69:ProjectViewProjectNode" />
+              <item name="swallowincense" type="462c0819:PsiDirectoryNode" />
+              <item name="swallowincense-order" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="swallowincense" type="b2602c69:ProjectViewProjectNode" />
+              <item name="swallowincense" type="462c0819:PsiDirectoryNode" />
+              <item name="swallowincense-order" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="swallowincense" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="swallowincense" type="b2602c69:ProjectViewProjectNode" />
+              <item name="swallowincense" type="462c0819:PsiDirectoryNode" />
+              <item name="swallowincense-order" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="swallowincense" type="462c0819:PsiDirectoryNode" />
+              <item name="order" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="swallowincense" type="b2602c69:ProjectViewProjectNode" />
+              <item name="swallowincense" type="462c0819:PsiDirectoryNode" />
+              <item name="swallowincense-order" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="swallowincense" type="462c0819:PsiDirectoryNode" />
+              <item name="order" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="swallowincense" type="b2602c69:ProjectViewProjectNode" />
+              <item name="swallowincense" type="462c0819:PsiDirectoryNode" />
+              <item name="swallowincense-order" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="swallowincense" type="462c0819:PsiDirectoryNode" />
+              <item name="order" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="swallowincense" type="b2602c69:ProjectViewProjectNode" />
+              <item name="swallowincense" type="462c0819:PsiDirectoryNode" />
+              <item name="swallowincense-order" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="swallowincense" type="462c0819:PsiDirectoryNode" />
+              <item name="order" type="462c0819:PsiDirectoryNode" />
+              <item name="interceptor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="swallowincense" type="b2602c69:ProjectViewProjectNode" />
+              <item name="swallowincense" type="462c0819:PsiDirectoryNode" />
+              <item name="swallowincense-order" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="swallowincense" type="462c0819:PsiDirectoryNode" />
+              <item name="order" type="462c0819:PsiDirectoryNode" />
+              <item name="listener" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="swallowincense" type="b2602c69:ProjectViewProjectNode" />
+              <item name="swallowincense" type="462c0819:PsiDirectoryNode" />
+              <item name="swallowincense-order" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="swallowincense" type="462c0819:PsiDirectoryNode" />
+              <item name="order" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="swallowincense" type="b2602c69:ProjectViewProjectNode" />
+              <item name="swallowincense" type="462c0819:PsiDirectoryNode" />
+              <item name="swallowincense-order" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="swallowincense" type="462c0819:PsiDirectoryNode" />
+              <item name="order" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="swallowincense" type="b2602c69:ProjectViewProjectNode" />
+              <item name="swallowincense" type="462c0819:PsiDirectoryNode" />
+              <item name="swallowincense-order" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="swallowincense" type="462c0819:PsiDirectoryNode" />
+              <item name="order" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="swallowincense" type="b2602c69:ProjectViewProjectNode" />
+              <item name="swallowincense" type="462c0819:PsiDirectoryNode" />
+              <item name="swallowincense-order" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="swallowincense" type="b2602c69:ProjectViewProjectNode" />
+              <item name="swallowincense" type="462c0819:PsiDirectoryNode" />
+              <item name="swallowincense-order" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="swallowincense" type="b2602c69:ProjectViewProjectNode" />
+              <item name="swallowincense" type="462c0819:PsiDirectoryNode" />
+              <item name="swallowincense-order" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="swallowincense" type="b2602c69:ProjectViewProjectNode" />
+              <item name="swallowincense" type="462c0819:PsiDirectoryNode" />
+              <item name="swallowincense-order" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="swallowincense" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="swallowincense" type="b2602c69:ProjectViewProjectNode" />
+              <item name="swallowincense" type="462c0819:PsiDirectoryNode" />
+              <item name="swallowincense-order" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="swallowincense" type="462c0819:PsiDirectoryNode" />
+              <item name="order" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="swallowincense" type="b2602c69:ProjectViewProjectNode" />
+              <item name="swallowincense" type="462c0819:PsiDirectoryNode" />
+              <item name="swallowincense-product" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="swallowincense" type="b2602c69:ProjectViewProjectNode" />
+              <item name="swallowincense" type="462c0819:PsiDirectoryNode" />
+              <item name="swallowincense-product" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="swallowincense" type="b2602c69:ProjectViewProjectNode" />
+              <item name="swallowincense" type="462c0819:PsiDirectoryNode" />
+              <item name="swallowincense-product" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="swallowincense" type="b2602c69:ProjectViewProjectNode" />
+              <item name="swallowincense" type="462c0819:PsiDirectoryNode" />
+              <item name="swallowincense-product" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="swallowincense" type="b2602c69:ProjectViewProjectNode" />
+              <item name="swallowincense" type="462c0819:PsiDirectoryNode" />
+              <item name="swallowincense-product" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="swallowincense" type="b2602c69:ProjectViewProjectNode" />
+              <item name="swallowincense" type="462c0819:PsiDirectoryNode" />
+              <item name="swallowincense-product" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="swallowincense" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="swallowincense" type="b2602c69:ProjectViewProjectNode" />
+              <item name="swallowincense" type="462c0819:PsiDirectoryNode" />
+              <item name="swallowincense-search" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="swallowincense" type="b2602c69:ProjectViewProjectNode" />
+              <item name="swallowincense" type="462c0819:PsiDirectoryNode" />
+              <item name="swallowincense-search" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="swallowincense" type="b2602c69:ProjectViewProjectNode" />
+              <item name="swallowincense" type="462c0819:PsiDirectoryNode" />
+              <item name="swallowincense-search" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="swallowincense" type="b2602c69:ProjectViewProjectNode" />
+              <item name="swallowincense" type="462c0819:PsiDirectoryNode" />
+              <item name="swallowincense-search" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="swallowincense" type="b2602c69:ProjectViewProjectNode" />
+              <item name="swallowincense" type="462c0819:PsiDirectoryNode" />
+              <item name="swallowincense-search" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="swallowincense" type="b2602c69:ProjectViewProjectNode" />
+              <item name="swallowincense" type="462c0819:PsiDirectoryNode" />
+              <item name="swallowincense-search" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="swallowincense" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="swallowincense" type="b2602c69:ProjectViewProjectNode" />
+              <item name="swallowincense" type="462c0819:PsiDirectoryNode" />
+              <item name="swallowincense-search" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="swallowincense" type="462c0819:PsiDirectoryNode" />
+              <item name="search" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="swallowincense" type="b2602c69:ProjectViewProjectNode" />
+              <item name="swallowincense" type="462c0819:PsiDirectoryNode" />
+              <item name="swallowincense-search" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="swallowincense" type="462c0819:PsiDirectoryNode" />
+              <item name="search" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="swallowincense" type="b2602c69:ProjectViewProjectNode" />
+              <item name="swallowincense" type="462c0819:PsiDirectoryNode" />
+              <item name="swallowincense-search" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="swallowincense" type="462c0819:PsiDirectoryNode" />
+              <item name="search" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="swallowincense" type="b2602c69:ProjectViewProjectNode" />
+              <item name="swallowincense" type="462c0819:PsiDirectoryNode" />
+              <item name="swallowincense-search" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="swallowincense" type="b2602c69:ProjectViewProjectNode" />
+              <item name="swallowincense" type="462c0819:PsiDirectoryNode" />
+              <item name="swallowincense-seckill" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="swallowincense" type="b2602c69:ProjectViewProjectNode" />
+              <item name="swallowincense" type="462c0819:PsiDirectoryNode" />
+              <item name="swallowincense-seckill" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="swallowincense" type="b2602c69:ProjectViewProjectNode" />
+              <item name="swallowincense" type="462c0819:PsiDirectoryNode" />
+              <item name="swallowincense-seckill" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="swallowincense" type="b2602c69:ProjectViewProjectNode" />
+              <item name="swallowincense" type="462c0819:PsiDirectoryNode" />
+              <item name="swallowincense-seckill" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="swallowincense" type="b2602c69:ProjectViewProjectNode" />
+              <item name="swallowincense" type="462c0819:PsiDirectoryNode" />
+              <item name="swallowincense-seckill" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="swallowincense" type="b2602c69:ProjectViewProjectNode" />
+              <item name="swallowincense" type="462c0819:PsiDirectoryNode" />
+              <item name="swallowincense-seckill" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="swallowincense" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="swallowincense" type="b2602c69:ProjectViewProjectNode" />
+              <item name="swallowincense" type="462c0819:PsiDirectoryNode" />
+              <item name="swallowincense-seckill" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="swallowincense" type="462c0819:PsiDirectoryNode" />
+              <item name="seckill" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="swallowincense" type="b2602c69:ProjectViewProjectNode" />
+              <item name="swallowincense" type="462c0819:PsiDirectoryNode" />
+              <item name="swallowincense-seckill" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="swallowincense" type="462c0819:PsiDirectoryNode" />
+              <item name="seckill" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="swallowincense" type="b2602c69:ProjectViewProjectNode" />
+              <item name="swallowincense" type="462c0819:PsiDirectoryNode" />
+              <item name="swallowincense-seckill" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="swallowincense" type="462c0819:PsiDirectoryNode" />
+              <item name="seckill" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="swallowincense" type="b2602c69:ProjectViewProjectNode" />
+              <item name="swallowincense" type="462c0819:PsiDirectoryNode" />
+              <item name="swallowincense-seckill" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="swallowincense" type="462c0819:PsiDirectoryNode" />
+              <item name="seckill" type="462c0819:PsiDirectoryNode" />
+              <item name="interceptor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="swallowincense" type="b2602c69:ProjectViewProjectNode" />
+              <item name="swallowincense" type="462c0819:PsiDirectoryNode" />
+              <item name="swallowincense-seckill" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="swallowincense" type="462c0819:PsiDirectoryNode" />
+              <item name="seckill" type="462c0819:PsiDirectoryNode" />
+              <item name="scheduled" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="swallowincense" type="b2602c69:ProjectViewProjectNode" />
+              <item name="swallowincense" type="462c0819:PsiDirectoryNode" />
+              <item name="swallowincense-seckill" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="swallowincense" type="462c0819:PsiDirectoryNode" />
+              <item name="seckill" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="swallowincense" type="b2602c69:ProjectViewProjectNode" />
+              <item name="swallowincense" type="462c0819:PsiDirectoryNode" />
+              <item name="swallowincense-seckill" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="swallowincense" type="462c0819:PsiDirectoryNode" />
+              <item name="seckill" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="swallowincense" type="b2602c69:ProjectViewProjectNode" />
+              <item name="swallowincense" type="462c0819:PsiDirectoryNode" />
+              <item name="swallowincense-seckill" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="swallowincense" type="462c0819:PsiDirectoryNode" />
+              <item name="seckill" type="462c0819:PsiDirectoryNode" />
+              <item name="to" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="swallowincense" type="b2602c69:ProjectViewProjectNode" />
+              <item name="swallowincense" type="462c0819:PsiDirectoryNode" />
+              <item name="swallowincense-seckill" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="swallowincense" type="462c0819:PsiDirectoryNode" />
+              <item name="seckill" type="462c0819:PsiDirectoryNode" />
+              <item name="vo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="swallowincense" type="b2602c69:ProjectViewProjectNode" />
+              <item name="swallowincense" type="462c0819:PsiDirectoryNode" />
+              <item name="swallowincense-seckill" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="swallowincense" type="b2602c69:ProjectViewProjectNode" />
+              <item name="swallowincense" type="462c0819:PsiDirectoryNode" />
+              <item name="swallowincense-seckill" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="swallowincense" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SearchEverywhereHistoryKey" value="META-INF/spring.factories&#9;FILE&#9;jar://D:/apache-maven-3.6.1-bin/package_jre/maven_repository/com/alibaba/druid-spring-boot-starter/1.1.13/druid-spring-boot-starter-1.1.13-sources.jar!/META-INF/spring.factories&#10;SessionRepositoryFilter&#9;PSI&#9;JAVA://org.springframework.session.web.http.SessionRepositoryFilter&#10;Lock&#9;FILE&#9;jar://D:/apache-maven-3.6.1-bin/package_jre/maven_repository/commons-configuration/commons-configuration/1.10/commons-configuration-1.10.jar!/org/apache/commons/configuration/Lock.class&#10;MyRe&#9;FILE&#9;file://G:/workspace/javaee/swallowincense/swallowincense-member/src/main/java/com/swallowincense/member/config/MyRedissonConfig.java&#10;Myr&#9;FILE&#9;file://G:/workspace/javaee/swallowincense/swallowincense-seckill/src/main/java/com/swallowincense/seckill/config/MyRedisConfig.java&#10;TaskExecution&#9;FILE&#9;jar://D:/apache-maven-3.6.1-bin/package_jre/maven_repository/org/springframework/boot/spring-boot-autoconfigure/2.1.6.RELEASE/spring-boot-autoconfigure-2.1.6.RELEASE.jar!/org/springframework/boot/autoconfigure/task/TaskExecutionAutoConfiguration.class&#10;schedulingAuto&#9;FILE&#9;jar://D:/apache-maven-3.6.1-bin/package_jre/maven_repository/org/springframework/boot/spring-boot-autoconfigure/2.1.6.RELEASE/spring-boot-autoconfigure-2.1.6.RELEASE.jar!/org/springframework/boot/autoconfigure/task/TaskSchedulingAutoConfiguration.class&#10;DataSourceAuto&#9;PSI&#9;JAVA://org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration&#10;collections&#9;PSI&#9;JAVA://java.util.Collections&#10;Collections&#9;PSI&#9;JAVA://com.sun.xml.internal.ws.policy.privateutil.PolicyUtils.Collections&#10;Biz&#9;PSI&#9;JAVA://com.swallowincense.common.exception.BizCodeEnum&#10;confirmca&#9;PSI&#9;JAVA://org.springframework.amqp.rabbit.core.RabbitTemplate.ConfirmCallback&#10;RabbitAuto&#9;PSI&#9;JAVA://org.springframework.boot.autoconfigure.amqp.RabbitAutoConfiguration&#10;cacheauto&#9;FILE&#9;jar://D:/apache-maven-3.6.1-bin/package_jre/maven_repository/org/springframework/boot/spring-boot-autoconfigure/2.1.6.RELEASE/spring-boot-autoconfigure-2.1.6.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/cache/CacheAutoConfiguration.java&#10;Cache&#9;FILE&#9;jar://D:/apache-maven-3.6.1-bin/package_jre/maven_repository/org/springframework/data/spring-data-redis/2.5.3/spring-data-redis-2.5.3-sources.jar!/org/springframework/data/redis/cache/RedisCacheConfiguration.java&#10;cache&#9;FILE&#9;jar://D:/apache-maven-3.6.1-bin/package_jre/maven_repository/org/springframework/boot/spring-boot-autoconfigure/2.1.6.RELEASE/spring-boot-autoconfigure-2.1.6.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/cache/RedisCacheConfiguration.java&#10;RedisCacheConfiguration&#9;PSI&#9;JAVA://org.springframework.boot.autoconfigure.cache.RedisCacheConfiguration&#10;cacheAuto&#9;FILE&#9;jar://D:/apache-maven-3.6.1-bin/package_jre/maven_repository/org/springframework/boot/spring-boot-autoconfigure/2.1.6.RELEASE/spring-boot-autoconfigure-2.1.6.RELEASE.jar!/org/springframework/boot/autoconfigure/cache/CacheAutoConfiguration.class&#10;cachemanager&#9;PSI&#9;JAVA://org.springframework.cache.CacheManager&#10;Redissonlo&#9;PSI&#9;JAVA://org.redisson.RedissonLock&#10;PlatformDe&#9;PSI&#9;JAVA://io.netty.util.internal.PlatformDependent&#10;WebMvcAuto&#9;PSI&#9;JAVA://org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration&#10;WebMvc&#9;FILE&#9;jar://D:/apache-maven-3.6.1-bin/package_jre/maven_repository/org/springframework/boot/spring-boot-autoconfigure/2.1.6.RELEASE/spring-boot-autoconfigure-2.1.6.RELEASE.jar!/org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration.class&#10;ReflectiveF&#9;PSI&#9;JAVA://feign.ReflectiveFeign" />
+    <property name="TODO_SCOPE" value="All Places" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1636621347996" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last.edited.regexp" value="1" />
+    <property name="last_opened_file_path" value="$MAVEN_REPOSITORY$/com/rabbitmq/amqp-client/5.10.0/amqp-client-5.10.0.jar!/" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.swallowincense.order.to" />
+      <recent name="com.swallowincense.order.vo" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.swallowincense.ware" />
+      <recent name="com.swallowincense.order" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\workspace\javaee\swallowincense\swallowincense-seckill\src\main\resources\templates" />
+      <recent name="G:\workspace\javaee\swallowincense\swallowincense-product\src\main\java\com\swallowincense\product\vo" />
+      <recent name="G:\workspace\javaee\swallowincense\swallowincense-ware\src\main\java\com\swallowincense\ware\vo" />
+      <recent name="G:\workspace\javaee\swallowincense\swallowincense-order\src\main\java\com\swallowincense\order" />
+      <recent name="G:\workspace\javaee\swallowincense\swallowincense-order\src\main\java\com\swallowincense\order\config" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.swallowincense.seckill.config" />
+      <recent name="com.swallowincense.seckill.interceptor" />
+      <recent name="com.swallowincense.ware.vo" />
+      <recent name="com.swallowincense.order.vo" />
+      <recent name="com.swallowincense.order.config" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\workspace\javaee\swallowincense" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+    <option name="contentProportion" value="0.24043716" />
+  </component>
+  <component name="RunManager" selected="Spring Boot.SwallowincenseOrderApplication">
+    <configuration name="SwallowincenseOrderApplicationTests" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.swallowincense.order.SwallowincenseOrderApplicationTests" />
+      <module name="swallowincense-order" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.swallowincense.order.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SwallowIncense" type="CompoundRunConfigurationType" factoryName="Compound Run Configuration">
+      <toRun type="SpringBootApplicationConfigurationType" name="RenrenApplication" />
+      <toRun type="SpringBootApplicationConfigurationType" name="SwallowincenseAuthApplication" />
+      <toRun type="SpringBootApplicationConfigurationType" name="SwallowincenseCouponApplication" />
+      <toRun type="SpringBootApplicationConfigurationType" name="SwallowincenseGatewayApplication" />
+      <toRun type="SpringBootApplicationConfigurationType" name="SwallowincenseMemberApplication" />
+      <toRun type="SpringBootApplicationConfigurationType" name="SwallowincenseProductApplication" />
+      <toRun type="SpringBootApplicationConfigurationType" name="SwallowincenseSearchApplication" />
+      <toRun type="SpringBootApplicationConfigurationType" name="SwallowincenseSeckillApplication" />
+      <toRun type="SpringBootApplicationConfigurationType" name="SwallowincenseWareApplication" />
+      <method v="2" />
+    </configuration>
+    <configuration name="SwallowincenseOrderApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="swallowincense-order" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.swallowincense.order.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.swallowincense.order" />
+      <option name="MAIN_CLASS_NAME" value="com.swallowincense.order.SwallowincenseOrderApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SwallowincenseOrderApplicationTests.deadLock" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="swallowincense-order" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.swallowincense.order.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.swallowincense.order" />
+      <option name="MAIN_CLASS_NAME" value="com.swallowincense.order.SwallowincenseOrderApplicationTests" />
+      <option name="METHOD_NAME" value="deadLock" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SwallowincenseOrderApplicationTests.finalConstructor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="swallowincense-order" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.swallowincense.order.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.swallowincense.order" />
+      <option name="MAIN_CLASS_NAME" value="com.swallowincense.order.SwallowincenseOrderApplicationTests" />
+      <option name="METHOD_NAME" value="finalConstructor" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SwallowincenseOrderApplicationTests.testFailFast" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="swallowincense-order" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.swallowincense.order.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.swallowincense.order" />
+      <option name="MAIN_CLASS_NAME" value="com.swallowincense.order.SwallowincenseOrderApplicationTests" />
+      <option name="METHOD_NAME" value="testFailFast" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RenrenApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="renren-fast" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="io.renren.RenrenApplication" />
+      <option name="VM_PARAMETERS" value="-Xmx100m" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SwallowincenseAuthApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="swallowincense-auth" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.swallowincense.auth.SwallowincenseAuthApplication" />
+      <option name="VM_PARAMETERS" value="-Xmx100m" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SwallowincenseCarApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="swallowincense-car" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.swallowincense.car.SwallowincenseCarApplication" />
+      <option name="VM_PARAMETERS" value="-Xmx100m" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SwallowincenseCouponApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="swallowincense-coupon" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.swallowincense.coupon.SwallowincenseCouponApplication" />
+      <option name="VM_PARAMETERS" value="-Xmx100m" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SwallowincenseGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="swallowincense-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.swallowincense.gateway.SwallowincenseGatewayApplication" />
+      <option name="VM_PARAMETERS" value="-Xmx100m" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SwallowincenseMemberApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="swallowincense-member" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.swallowincense.member.SwallowincenseMemberApplication" />
+      <option name="VM_PARAMETERS" value="-Xmx100m" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SwallowincenseOrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="swallowincense-order" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.swallowincense.order.SwallowincenseOrderApplication" />
+      <option name="VM_PARAMETERS" value="-Xmx100m" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SwallowincenseProductApplication -1" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="swallowincense-product" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.swallowincense.product.SwallowincenseProductApplication" />
+      <option name="VM_PARAMETERS" value="-Xmx100m" />
+      <option name="PROGRAM_PARAMETERS" value="--server.port=12001" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2" />
+    </configuration>
+    <configuration name="SwallowincenseProductApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="swallowincense-product" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.swallowincense.product.SwallowincenseProductApplication" />
+      <option name="VM_PARAMETERS" value="-Xmx100m" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SwallowincenseSearchApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="swallowincense-search" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.swallowincense.search.SwallowincenseSearchApplication" />
+      <option name="VM_PARAMETERS" value="-Xmx100m" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SwallowincenseSeckillApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="swallowincense-seckill" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.swallowincense.seckill.SwallowincenseSeckillApplication" />
+      <option name="VM_PARAMETERS" value="-Xmx100m" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SwallowincenseThirdPartyApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="swallowincense-third-party" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.swallowincense.thirdparty.SwallowincenseThirdPartyApplication" />
+      <option name="VM_PARAMETERS" value="-Xmx100m" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SwallowincenseWareApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="swallowincense-ware" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.swallowincense.ware.SwallowincenseWareApplication" />
+      <option name="VM_PARAMETERS" value="-Xmx100m" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SwallowinvenseCommonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="swallowinvense-common" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.swallowinvense.common.SwallowinvenseCommonApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Compound.SwallowIncense" />
+      <item itemvalue="Spring Boot.SwallowincenseProductApplication" />
+      <item itemvalue="Spring Boot.SwallowincenseOrderApplication" />
+      <item itemvalue="Spring Boot.SwallowincenseWareApplication" />
+      <item itemvalue="Spring Boot.SwallowincenseCouponApplication" />
+      <item itemvalue="Spring Boot.SwallowincenseMemberApplication" />
+      <item itemvalue="Spring Boot.RenrenApplication" />
+      <item itemvalue="Spring Boot.SwallowinvenseCommonApplication" />
+      <item itemvalue="Spring Boot.SwallowincenseGatewayApplication" />
+      <item itemvalue="Spring Boot.SwallowincenseThirdPartyApplication" />
+      <item itemvalue="Spring Boot.SwallowincenseSearchApplication" />
+      <item itemvalue="Spring Boot.SwallowincenseProductApplication -1" />
+      <item itemvalue="Spring Boot.SwallowincenseAuthApplication" />
+      <item itemvalue="Spring Boot.SwallowincenseCarApplication" />
+      <item itemvalue="Spring Boot.SwallowincenseSeckillApplication" />
+      <item itemvalue="Application.SwallowincenseOrderApplicationTests" />
+      <item itemvalue="JUnit.SwallowincenseOrderApplicationTests.contextLoads" />
+      <item itemvalue="JUnit.SwallowincenseOrderApplicationTests.testFailFast" />
+      <item itemvalue="JUnit.SwallowincenseOrderApplicationTests.deadLock" />
+      <item itemvalue="JUnit.SwallowincenseOrderApplicationTests.finalConstructor" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SwallowincenseOrderApplicationTests" />
+        <item itemvalue="JUnit.SwallowincenseOrderApplicationTests.finalConstructor" />
+        <item itemvalue="JUnit.SwallowincenseOrderApplicationTests.deadLock" />
+        <item itemvalue="JUnit.SwallowincenseOrderApplicationTests.contextLoads" />
+        <item itemvalue="JUnit.SwallowincenseOrderApplicationTests.testFailFast" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpringBootOptions">
+    <option name="showAdditionalConfigNotification" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0878debe-852c-4b4f-b736-fbee099a4469" name="Default Changelist" comment="" />
+      <created>1627009516764</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1627009516764</updated>
+      <workItem from="1627009523093" duration="10163000" />
+      <workItem from="1627040559355" duration="13302000" />
+      <workItem from="1627106327070" duration="1179000" />
+      <workItem from="1627175202148" duration="14422000" />
+      <workItem from="1627205613232" duration="3878000" />
+      <workItem from="1627218031796" duration="9889000" />
+      <workItem from="1627278654851" duration="3551000" />
+      <workItem from="1627292221524" duration="1928000" />
+      <workItem from="1627300675385" duration="3799000" />
+      <workItem from="1627391505779" duration="989000" />
+      <workItem from="1627456098095" duration="4034000" />
+      <workItem from="1627473831456" duration="2884000" />
+      <workItem from="1627527541832" duration="15516000" />
+      <workItem from="1627565534744" duration="4322000" />
+      <workItem from="1627613832878" duration="3595000" />
+      <workItem from="1627624291107" duration="11439000" />
+      <workItem from="1627649202939" duration="13472000" />
+      <workItem from="1627744811387" duration="5509000" />
+      <workItem from="1627817205106" duration="12028000" />
+      <workItem from="1627898466017" duration="81000" />
+      <workItem from="1627900142557" duration="69000" />
+      <workItem from="1627906448527" duration="5987000" />
+      <workItem from="1627955077731" duration="9398000" />
+      <workItem from="1627998733388" duration="8570000" />
+      <workItem from="1628047976833" duration="713000" />
+      <workItem from="1628048776239" duration="582000" />
+      <workItem from="1628069340751" duration="4047000" />
+      <workItem from="1628084997938" duration="6219000" />
+      <workItem from="1628144462158" duration="8083000" />
+      <workItem from="1628153832809" duration="3799000" />
+      <workItem from="1628162623198" duration="6931000" />
+      <workItem from="1628230335958" duration="2318000" />
+      <workItem from="1628735545003" duration="1083000" />
+      <workItem from="1629765875561" duration="836000" />
+      <workItem from="1629807014924" duration="585000" />
+      <workItem from="1629897536804" duration="4613000" />
+      <workItem from="1629964883563" duration="3960000" />
+      <workItem from="1629983792887" duration="4690000" />
+      <workItem from="1630036295703" duration="391000" />
+      <workItem from="1630045745339" duration="5756000" />
+      <workItem from="1630138221241" duration="7390000" />
+      <workItem from="1630225381999" duration="13439000" />
+      <workItem from="1630479925013" duration="8755000" />
+      <workItem from="1630562025927" duration="7826000" />
+      <workItem from="1630595849528" duration="1181000" />
+      <workItem from="1630637045758" duration="3632000" />
+      <workItem from="1630752168528" duration="16747000" />
+      <workItem from="1630806837795" duration="12000000" />
+      <workItem from="1630846767824" duration="10457000" />
+      <workItem from="1630893877751" duration="1776000" />
+      <workItem from="1630930347960" duration="14120000" />
+      <workItem from="1631024947915" duration="7197000" />
+      <workItem from="1631103373241" duration="1130000" />
+      <workItem from="1631324682321" duration="16169000" />
+      <workItem from="1631414258997" duration="17739000" />
+      <workItem from="1631450319664" duration="8001000" />
+      <workItem from="1631534796240" duration="11908000" />
+      <workItem from="1631628337527" duration="6289000" />
+      <workItem from="1631782040298" duration="7520000" />
+      <workItem from="1631801367349" duration="8473000" />
+      <workItem from="1631843382781" duration="4115000" />
+      <workItem from="1631944394315" duration="3348000" />
+      <workItem from="1632312372954" duration="10377000" />
+      <workItem from="1632397672413" duration="5101000" />
+      <workItem from="1632406883700" duration="6645000" />
+      <workItem from="1632475066517" duration="6739000" />
+      <workItem from="1632486716258" duration="13020000" />
+      <workItem from="1632538969053" duration="11704000" />
+      <workItem from="1632657778438" duration="11801000" />
+      <workItem from="1632829210754" duration="5812000" />
+      <workItem from="1632963547783" duration="6683000" />
+      <workItem from="1633015284305" duration="7895000" />
+      <workItem from="1633052313526" duration="13271000" />
+      <workItem from="1633658621502" duration="13166000" />
+      <workItem from="1633701879694" duration="6560000" />
+      <workItem from="1633744669424" duration="12643000" />
+      <workItem from="1633779110236" duration="11465000" />
+      <workItem from="1633924752664" duration="2459000" />
+      <workItem from="1633956357594" duration="12459000" />
+      <workItem from="1634048118506" duration="6554000" />
+      <workItem from="1634127407324" duration="12703000" />
+      <workItem from="1634220797295" duration="5970000" />
+      <workItem from="1634299041067" duration="18137000" />
+      <workItem from="1634362728473" duration="9608000" />
+      <workItem from="1634546779784" duration="873000" />
+      <workItem from="1634557557879" duration="8111000" />
+      <workItem from="1634613393758" duration="6181000" />
+      <workItem from="1634695228647" duration="3069000" />
+      <workItem from="1634797887807" duration="885000" />
+      <workItem from="1634869153831" duration="3032000" />
+      <workItem from="1635142278232" duration="895000" />
+      <workItem from="1635304289512" duration="8105000" />
+      <workItem from="1635389813103" duration="5964000" />
+      <workItem from="1635431830155" duration="2150000" />
+      <workItem from="1635474990494" duration="4756000" />
+      <workItem from="1635559049401" duration="32000" />
+      <workItem from="1636440228292" duration="7370000" />
+      <workItem from="1636461055602" duration="12000" />
+      <workItem from="1636619713554" duration="678000" />
+      <workItem from="1637137411990" duration="631000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="SwallowincenseOrderApplicationTests_deadLock - 2021.10.11 at 18h 21m 16s.xml">
+      <configuration name="SwallowincenseOrderApplicationTests.deadLock" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SwallowincenseOrderApplicationTests_deadLock - 2021.10.11 at 18h 21m 48s.xml">
+      <configuration name="SwallowincenseOrderApplicationTests.deadLock" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SwallowincenseOrderApplicationTests_deadLock - 2021.10.11 at 18h 24m 03s.xml">
+      <configuration name="SwallowincenseOrderApplicationTests.deadLock" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SwallowincenseOrderApplicationTests_contextLoads - 2021.10.11 at 18h 26m 24s.xml">
+      <configuration name="SwallowincenseOrderApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SwallowincenseOrderApplicationTests_deadLock - 2021.10.11 at 21h 04m 19s.xml">
+      <configuration name="SwallowincenseOrderApplicationTests.deadLock" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SwallowincenseOrderApplicationTests_deadLock - 2021.10.11 at 21h 08m 18s.xml">
+      <configuration name="SwallowincenseOrderApplicationTests.deadLock" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SwallowincenseOrderApplicationTests_deadLock - 2021.10.11 at 21h 15m 55s.xml">
+      <configuration name="SwallowincenseOrderApplicationTests.deadLock" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SwallowincenseOrderApplicationTests_finalConstructor - 2021.10.28 at 22h 41m 26s.xml">
+      <configuration name="SwallowincenseOrderApplicationTests.finalConstructor" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SwallowincenseOrderApplicationTests_finalConstructor - 2021.10.28 at 22h 42m 36s.xml">
+      <configuration name="SwallowincenseOrderApplicationTests.finalConstructor" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SwallowincenseOrderApplicationTests_finalConstructor - 2021.10.28 at 22h 44m 30s.xml">
+      <configuration name="SwallowincenseOrderApplicationTests.finalConstructor" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="667338000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25201073" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.45609066" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.33144477" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.2407932" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.3286119" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3286119" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5033512" side_tool="true" weight="0.18271954" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3286119" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.3286119" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run Dashboard" order="14" sideWeight="0.4966488" weight="0.46600565" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24932976" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.33914208" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="right" id="Database" order="8" weight="0.3297587" />
+      <window_info anchor="right" id="Bean Validation" order="9" weight="0.3297587" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/swallowincense-common/src/main/resources/分布式测试.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swallowincense-common/src/main/resources/压测工具以及相关调优.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swallowincense-common/src/main/resources/本地事务和分布式事务.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-852" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swallowincense-coupon/src/main/java/com/swallowincense/coupon/controller/CouponController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1207">
+          <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swallowincense-common/src/main/resources/高并发关注的问题.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swallowincense-gateway/src/main/java/com/swallowincense/gateway/SwallowincenseGatewayApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swallowincense-order/src/main/java/com/swallowincense/order/listener/OrderCloseListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swallowincense-order/src/main/java/com/swallowincense/order/listener/OrderSeckillListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="27" column="29" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swallowincense-common/src/main/resources/Session/Cookies.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="759">
+          <caret line="33" column="46" selection-start-line="33" selection-start-column="46" selection-end-line="33" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swallowincense-common/src/main/resources/JSR303校验笔记.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swallowincense-common/src/main/resources/Nacos笔记.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swallowincense-common/src/main/resources/OpenFeign远程调用.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swallowincense-auth/src/main/java/com/swallowincense/auth/SwallowincenseAuthApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.5.4/spring-boot-autoconfigure-2.5.4.jar!/org/springframework/boot/autoconfigure/SpringBootApplication.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="37" column="18" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.5.4/spring-boot-autoconfigure-2.5.4-sources.jar!/org/springframework/boot/autoconfigure/SpringBootApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="55" column="10" selection-start-line="55" selection-start-column="10" selection-end-line="55" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.5.4/spring-boot-autoconfigure-2.5.4-sources.jar!/org/springframework/boot/autoconfigure/AutoConfigurationPackages.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="110" column="85" selection-start-line="110" selection-start-column="78" selection-end-line="110" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.5.4/spring-boot-autoconfigure-2.5.4-sources.jar!/org/springframework/boot/autoconfigure/AutoConfigurationPackage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="40" column="36" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.3.9/spring-core-5.3.9-sources.jar!/org/springframework/core/io/support/SpringFactoriesLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="94" column="30" selection-start-line="94" selection-start-column="30" selection-end-line="94" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.5.4/spring-boot-autoconfigure-2.5.4-sources.jar!/org/springframework/boot/autoconfigure/EnableAutoConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="82" column="30" lean-forward="true" selection-start-line="82" selection-start-column="30" selection-end-line="82" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.base/java/util/Collection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="143" column="17" selection-start-line="143" selection-start-column="17" selection-end-line="143" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.5.4/spring-boot-autoconfigure-2.5.4-sources.jar!/org/springframework/boot/autoconfigure/AutoConfigurationImportSelector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="499" column="21" lean-forward="true" selection-start-line="499" selection-start-column="21" selection-end-line="499" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swallowincense-order/src/main/java/com/swallowincense/order/config/ThreadPoolConfigProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swallowincense-order/src/main/java/com/swallowincense/order/config/MyFeignConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="22" column="50" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swallowincense-order/src/main/java/com/swallowincense/order/config/MyRabbitMqConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swallowincense-order/src/main/java/com/swallowincense/order/config/MySeataConfig.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swallowincense-order/src/main/java/com/swallowincense/order/config/MySessionConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="17" column="55" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swallowincense-order/src/main/java/com/swallowincense/order/config/MyThreadConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swallowincense-order/src/main/java/com/swallowincense/order/config/MyWebConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swallowincense-order/src/main/java/com/swallowincense/order/interceptor/LoginUserInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swallowincense-order/src/main/java/com/swallowincense/order/service/impl/OrderServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1930">
+          <caret line="212" column="16" selection-start-line="212" selection-start-column="16" selection-end-line="212" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swallowincense-product/src/main/java/com/swallowincense/product/service/impl/SpuInfoServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-621">
+          <caret line="91" column="24" selection-start-line="91" selection-start-column="8" selection-end-line="91" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swallowincense-product/src/main/java/com/swallowincense/product/service/impl/SkuInfoServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1932">
+          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swallowincense-search/src/main/java/com/swallowincense/search/service/impl/MallSearchServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="214" column="8" lean-forward="true" selection-start-line="214" selection-start-column="8" selection-end-line="214" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swallowincense-seckill/src/main/java/com/swallowincense/seckill/service/impl/SeckillServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1574">
+          <caret line="61" column="51" selection-start-line="61" selection-start-column="51" selection-end-line="61" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swallowincense-seckill/src/main/java/com/swallowincense/seckill/config/ScheduledConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="7" column="12" lean-forward="true" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swallowincense-seckill/src/main/java/com/swallowincense/seckill/config/MyWebConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swallowincense-search/src/main/java/com/swallowincense/search/config/ElasticSearchConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swallowincense-search/src/main/java/com/swallowincense/search/constant/EsConstant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swallowincense-search/src/main/java/com/swallowincense/search/controller/SearchController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swallowincense-search/src/main/java/com/swallowincense/search/controller/ElasticSearchSaveController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swallowincense-search/src/main/java/com/swallowincense/search/service/impl/ElasticSearchSaveServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swallowincense-gateway/src/main/java/com/swallowincense/gateway/config/SentinelGatewayConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swallowincense-gateway/src/main/java/com/swallowincense/gateway/config/StoreCorsConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swallowincense-order/src/main/java/com/swallowincense/order/controller/OrderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="736">
+          <caret line="44" column="60" selection-start-line="44" selection-start-column="60" selection-end-line="44" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swallowincense-order/src/main/java/com/swallowincense/order/SwallowincenseOrderApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.5.3/spring-boot-autoconfigure-2.5.3-sources.jar!/org/springframework/boot/autoconfigure/SpringBootApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="55" column="15" selection-start-line="55" selection-start-column="15" selection-end-line="55" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.5.3/spring-boot-autoconfigure-2.5.3-sources.jar!/org/springframework/boot/autoconfigure/EnableAutoConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1219">
+          <caret line="82" column="36" selection-start-line="82" selection-start-column="36" selection-end-line="82" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.base/java/util/Collections.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94139">
+          <caret line="4434" column="36" selection-start-line="4434" selection-start-column="36" selection-end-line="4434" selection-end-column="36" />
+          <folding>
+            <element signature="e#175865#175866#0" expanded="true" />
+            <element signature="e#175908#175909#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.5.3/spring-boot-autoconfigure-2.5.3-sources.jar!/org/springframework/boot/autoconfigure/AutoConfigurationPackage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="40" column="38" selection-start-line="40" selection-start-column="38" selection-end-line="40" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.5.3/spring-boot-autoconfigure-2.5.3-sources.jar!/org/springframework/boot/autoconfigure/AutoConfigurationPackages.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1633">
+          <caret line="106" column="17" selection-start-line="106" selection-start-column="17" selection-end-line="106" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.5.3/spring-boot-autoconfigure-2.5.3-sources.jar!/org/springframework/boot/autoconfigure/AutoConfigurationImportSelector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="96" column="30" selection-start-line="96" selection-start-column="30" selection-end-line="96" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>9</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>renren-fast</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>9</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <last-edited>jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+          <order>
+            <scope name="jar" />
+          </order>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

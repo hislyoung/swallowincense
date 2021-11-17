@@ -1,0 +1,12 @@
+1、引入thymeleaf-starter
+2、静态资源放到static下
+    springboot默认读取以下目录的静态资源：
+        默认会找index CLASSPATH_RESOURCE_LOCATIONS
+        "classpath:/META-INF/resources/","classpath:/resources/", "classpath:/static/", "classpath:/public/"
+3、html放到templates下
+4、默认前后缀，当我们返回一个逻辑视图，springmvc会调用视图解析器将逻辑视图拼接到前后缀之间
+   //DEFAULT_PREFIX = "classpath:/templates/"
+   //DEFAULT_SUFFIX = ".html"
+2、热部署
+    引入dev-tools
+    catl+shift+f9刷新页面（必须关掉thymeleaf缓存）

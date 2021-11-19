@@ -8,9 +8,9 @@ spring:
   thymeleaf:
     cache: false
   redis:
-    host: 192.168.159.128
+    host: ip
     port: 6379
-    password: liuyang
+    password: password
   session:
     store-type: redis
 server:

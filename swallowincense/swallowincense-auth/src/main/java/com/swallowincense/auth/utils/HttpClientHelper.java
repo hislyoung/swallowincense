@@ -44,7 +44,7 @@ public class HttpClientHelper {
         return result;
     }
     public static void main(String[] args) throws HttpException, IOException {
-        String url ="http://int.dpool.sina.com.cn/iplookup/iplookup.php?ip=120.79.75.96";
+        String url ="http://int.dpool.sina.com.cn/iplookup/iplookup.php?ip=ip";
         System.out.println(sendPost(url));
         System.out.println(sendGet(url));
     }

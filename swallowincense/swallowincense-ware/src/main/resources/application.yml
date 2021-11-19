@@ -1,9 +1,9 @@
 spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://192.168.159.128:3306/si_ware?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=Asia/Shanghai
-    username: root
-    password: Yang1997
+    url: jdbc:mysql://ip:port/si_ware?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=Asia/Shanghai
+    username: username
+    password: password
   cloud:
     nacos:
       discovery:
@@ -15,7 +15,7 @@ spring:
     time-zone: GMT+8
   rabbitmq:
     virtual-host: /
-    host: 192.168.159.128
+    host: ip
     listener:
       simple:
         acknowledge-mode: manual

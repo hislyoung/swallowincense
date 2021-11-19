@@ -12,8 +12,8 @@ spring:
         dashboard: localhost:8333
         port: 8719
   redis:
-    host: 192.168.159.128
-    password: liuyang
+    host: ip
+    password: password
   task:
     execution:
       pool:
@@ -22,7 +22,7 @@ spring:
   session:
     store-type: redis
   rabbitmq:
-    host: 192.168.159.128
+    host: ip
     virtual-host: /
     publisher-confirm-type: correlated
     publisher-returns: true

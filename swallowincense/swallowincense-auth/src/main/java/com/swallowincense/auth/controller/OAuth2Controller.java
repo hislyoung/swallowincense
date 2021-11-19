@@ -28,7 +28,7 @@ public class OAuth2Controller {
     @RequestMapping("/success")
     public String gitee(@RequestParam("code")String code, HttpSession session,HttpServletResponse servletResponse){
         //发送请求，用code换取token
-        String url = "https://gitee.com/oauth/token?grant_type=authorization_code&code="+code+"&client_id=01bea419e64fad704821bd4dddf20b25fbc1c0787fc7ff7785ac0dc32640e8a7&redirect_uri=http://auth.swallowincense.com/OAuth2/success&client_secret=661a34d826067ed9359a683b40064d479e295c593258c122496b93f8f323802f";
+        String url = "https://gitee.com/oauth/token?grant_type=authorization_code&code="+code+"&client_id=ik&redirect_uri=http://auth.swallowincense.com/OAuth2/success&client_secret=sk";
         try {
             String s = HttpClientHelper.sendPost(url);
             if(StringUtils.isNotBlank(s)){

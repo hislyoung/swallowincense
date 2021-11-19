@@ -17,7 +17,7 @@ public class SmsComponent {
         return new com.aliyun.dysmsapi20170525.Client(config);
     }
     public void sendCode(String phoneNums, String sendCode) throws Exception {
-        com.aliyun.dysmsapi20170525.Client client = SmsComponent.createClient("LTAI5t8w25ku51w3DhBaqgbE", "6Xf3aGZe328T8g5CqfgkvRBOfjs0h5");
+        com.aliyun.dysmsapi20170525.Client client = SmsComponent.createClient("ak", "sk");
         // 1.发送短信
         SendSmsRequest sendReq = new SendSmsRequest()
                 .setPhoneNumbers(phoneNums)

@@ -18,9 +18,9 @@ public class MyRedissonConfig {
     RedissonClient redissonClient()throws Exception{
         Config config = new Config();
         //集群模式
-        //config.useClusterServers().addNodeAddress("192.168.159.128:6379");
+        //config.useClusterServers().addNodeAddress("ip:port");
         //单节点模式
-        config.useSingleServer().setAddress("redis://192.168.159.128:6379").setPassword("liuyang");
+        config.useSingleServer().setAddress("redis://ip:port").setPassword("password");
         return Redisson.create(config);
     }
 

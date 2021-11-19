@@ -46,7 +46,7 @@
     <session id="-1180103033">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="97" />
+          <entry key="project.closed" value="98" />
           <entry key="project.open.time.110" value="1" />
           <entry key="project.open.time.118" value="1" />
           <entry key="project.open.time.12" value="1" />
@@ -227,8 +227,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.5.3/spring-boot-autoconfigure-2.5.3-sources.jar!/org/springframework/boot/autoconfigure/AutoConfigurationImportSelector.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="96" column="30" selection-start-line="96" selection-start-column="30" selection-end-line="96" selection-end-column="30" />
+            <state relative-caret-position="367">
+              <caret line="109" column="5" lean-forward="true" selection-start-line="109" selection-start-column="5" selection-end-line="109" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -430,7 +430,7 @@
   <component name="NamedScopeManager">
     <scope name="jar" pattern="lib:*..*" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="110" />
     <option name="y" value="95" />
     <option name="width" value="1750" />
@@ -1530,7 +1530,7 @@
       <workItem from="1636440228292" duration="7370000" />
       <workItem from="1636461055602" duration="12000" />
       <workItem from="1636619713554" duration="678000" />
-      <workItem from="1637137411990" duration="631000" />
+      <workItem from="1637137411990" duration="633000" />
     </task>
     <servers />
   </component>
@@ -1567,7 +1567,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="667338000" />
+    <option name="totallyTimeSpent" value="667340000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1579,7 +1579,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25201073" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -1956,8 +1956,8 @@
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.5.3/spring-boot-autoconfigure-2.5.3-sources.jar!/org/springframework/boot/autoconfigure/AutoConfigurationImportSelector.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="96" column="30" selection-start-line="96" selection-start-column="30" selection-end-line="96" selection-end-column="30" />
+        <state relative-caret-position="367">
+          <caret line="109" column="5" lean-forward="true" selection-start-line="109" selection-start-column="5" selection-end-line="109" selection-end-column="5" />
         </state>
       </provider>
     </entry>
